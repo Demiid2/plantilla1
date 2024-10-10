@@ -1,17 +1,15 @@
 <script>import "../app.css";
-	import Header from "../lib/components/Header.svelte";
+	
 	import "./styles.css";
 	</script>
 <div class="app">
-	<Header></Header>
+	
 
 	<main>
 		<slot></slot>
 	</main>
 
-	<footer>
-		<p>visita <a href="https://instagram.com/webnetwork.solutions">nuestro insta</a> para más info</p>
-	</footer>
+	
 </div>
 
 
